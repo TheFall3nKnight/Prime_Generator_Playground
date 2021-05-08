@@ -28,4 +28,4 @@ func primeGen (upToNum: Int) -> Array<Int> {
 }
 
 var numofNums = 999 // Edit this variable
-print(primeGen(upToNum: numofNums))
+print("Prime Numbers:", primeGen(upToNum: numofNums))

@@ -27,4 +27,5 @@ func primeGen (upToNum: Int) -> Array<Int> {
     return primeList
 }
 
-print(primeGen(upToNum: 999))
+var numofNums = 999 // Edit this variable
+print(primeGen(upToNum: numofNums))
